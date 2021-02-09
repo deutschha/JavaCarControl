@@ -27,7 +27,7 @@ public class HeadLine {
             StringBuilder sb = new StringBuilder();
             for (int x = 0; x < width; x++) {
 
-                sb.append(image.getRGB(x, y) == -16777216 ? " " : "§");
+                sb.append(image.getRGB(x, y) == -16777216 ? " " : "$");
 
             }
 

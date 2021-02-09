@@ -49,4 +49,5 @@ public class Auto extends Fahrzeug {
         }
         return text;
     }
+
 }
